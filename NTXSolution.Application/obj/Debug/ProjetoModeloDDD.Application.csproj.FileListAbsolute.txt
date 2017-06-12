@@ -1,0 +1,7 @@
+C:\Users\ZAK\OneDrive\Documentos\Cursos\Desenvolvimento Software\C#\Arquitetura\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application\bin\Debug\ProjetoModeloDDD.Application.dll
+C:\Users\ZAK\OneDrive\Documentos\Cursos\Desenvolvimento Software\C#\Arquitetura\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application\bin\Debug\ProjetoModeloDDD.Application.pdb
+C:\Users\ZAK\OneDrive\Documentos\Cursos\Desenvolvimento Software\C#\Arquitetura\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application\bin\Debug\ProjetoModeloDDD.Domain.dll
+C:\Users\ZAK\OneDrive\Documentos\Cursos\Desenvolvimento Software\C#\Arquitetura\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application\bin\Debug\ProjetoModeloDDD.Domain.pdb
+C:\Users\ZAK\OneDrive\Documentos\Cursos\Desenvolvimento Software\C#\Arquitetura\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application\obj\Debug\ProjetoModeloDDD.Application.csprojResolveAssemblyReference.cache
+C:\Users\ZAK\OneDrive\Documentos\Cursos\Desenvolvimento Software\C#\Arquitetura\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application\obj\Debug\ProjetoModeloDDD.Application.dll
+C:\Users\ZAK\OneDrive\Documentos\Cursos\Desenvolvimento Software\C#\Arquitetura\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application\obj\Debug\ProjetoModeloDDD.Application.pdb
