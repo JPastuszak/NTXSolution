@@ -1,0 +1,66 @@
+﻿@model NTXSolution.MVC.ViewModels.LivroViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LivroViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Autor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Autor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Idioma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Idioma)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Paginas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Paginas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Capa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Capa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EditoraId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EditoraId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.LivroId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

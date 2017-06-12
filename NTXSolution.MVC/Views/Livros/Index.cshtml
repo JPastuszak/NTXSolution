@@ -1,0 +1,80 @@
+﻿@model IEnumerable<NTXSolution.MVC.ViewModels.LivroViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p>
+   Pesquisar Por Nome
+    @using(Html.BeginForm("ConsultaPorNome","Livros", FormMethod.Get))
+    {
+        @Html.TextBox("Nome")
+        <input type="submit" value="Pesquisar"/>
+    }
+</p>
+
+<p>
+    Pesquisar Por Autor
+    @using (Html.BeginForm("ConsultaPorAutor", "Livros", FormMethod.Get))
+    {
+        @Html.TextBox("Autor")
+        <input type="submit" value="AutorPesquisa" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Autor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Idioma)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Paginas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Capa)
+        </th>
+        <th>
+            @Html.DisplayName("Editora")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Autor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Idioma)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Paginas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Capa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Editora.Nome)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LivroId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LivroId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LivroId })
+        </td>
+    </tr>
+}
+
+</table>
